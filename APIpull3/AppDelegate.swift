@@ -6,6 +6,8 @@
 //  Copyright © 2020 Mark Robberts. All rights reserved.
 //
 
+import Amplify
+import AmplifyPlugins
 import UIKit
 
 @UIApplicationMain
@@ -15,6 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+         Amplify.Logging.logLevel = .verbose
+        do {
+            // 1
+              try Amplify.add(plugin: AWSAPIPlugin(modelRegistration: AmplifyModels()))
+            //try Amplify.add(plugin: AWSDataStorePlugin(modelRegistration: AmplifyModels()))
+            // 2
+            try Amplify.configure()
+            print("Amplify initialized successfully")
+            
+        } catch {
+            print("Could not initialize Amplify \(error)")
+        }
+        
         return true
     }
 

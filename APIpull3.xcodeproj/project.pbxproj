@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1344B35A9DB43D07D015F205 /* Pods_APIpull3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE90B4EC8103482C1188D0A4 /* Pods_APIpull3.framework */; };
 		6BA4124C24BF7F7300B668AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4124B24BF7F7300B668AF /* AppDelegate.swift */; };
 		6BA4124E24BF7F7300B668AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4124D24BF7F7300B668AF /* SceneDelegate.swift */; };
 		6BA4125024BF7F7300B668AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4124F24BF7F7300B668AF /* ContentView.swift */; };
 		6BA4125224BF7F7600B668AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4125124BF7F7600B668AF /* Assets.xcassets */; };
 		6BA4125524BF7F7600B668AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4125424BF7F7600B668AF /* Preview Assets.xcassets */; };
 		6BA4125824BF7F7600B668AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4125624BF7F7600B668AF /* LaunchScreen.storyboard */; };
+		6BA4126024BF807700B668AF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4125F24BF807700B668AF /* Podfile */; };
+		D93A64E8E4594A79A58EF3BB /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 4204781C00D04FCD93991A62 /* amplifyconfiguration.json */; };
+		4A4181FFAC8041E88EC3E8D7 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E76C6699FD4546B5ABF03336 /* awsconfiguration.json */; };
+		6BC7E794ECDC439695F11378 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844806E3E6941B9AD2B8499 /* AmplifyModels.swift */; };
+		DFB1A115566843248D6A44F2 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085EFE449094E52AC71A8C2 /* Note.swift */; };
+		D052553491E04CB1A33A44B7 /* Note+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853EF17D63E14ADB9ED185D5 /* Note+Schema.swift */; };
+		0D2BF67F17C74A6C9CBFCADA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B2712CEEA486AAF9F1AEE /* Task.swift */; };
+		7129B09792B048CE956AB3A7 /* Task+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = C634671289264298B84FD5DD /* Task+Schema.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04E13670BAD0880CC9387C8D /* Pods-APIpull3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIpull3.debug.xcconfig"; path = "Target Support Files/Pods-APIpull3/Pods-APIpull3.debug.xcconfig"; sourceTree = "<group>"; };
 		6BA4124824BF7F7300B668AF /* APIpull3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIpull3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA4124B24BF7F7300B668AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BA4124D24BF7F7300B668AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,18 @@
 		6BA4125424BF7F7600B668AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6BA4125724BF7F7600B668AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BA4125924BF7F7600B668AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA4125F24BF807700B668AF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B315D5499F8E3B11A6F4EFEF /* Pods-APIpull3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIpull3.release.xcconfig"; path = "Target Support Files/Pods-APIpull3/Pods-APIpull3.release.xcconfig"; sourceTree = "<group>"; };
+		EE90B4EC8103482C1188D0A4 /* Pods_APIpull3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIpull3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E017A2F15BE940C5B2479DE1 /* amplifytools.xcconfig */ = {isa = PBXFileReference; name = "amplifytools.xcconfig"; path = "amplifytools.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
+		4204781C00D04FCD93991A62 /* amplifyconfiguration.json */ = {isa = PBXFileReference; name = "amplifyconfiguration.json"; path = "amplifyconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E76C6699FD4546B5ABF03336 /* awsconfiguration.json */ = {isa = PBXFileReference; name = "awsconfiguration.json"; path = "awsconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C971FBB9175B426CBEF20DFC /* schema.graphql */ = {isa = PBXFileReference; name = "schema.graphql"; path = "amplify/backend/api/amplifyDatasource/schema.graphql"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text; explicitFileType = undefined; includeInIndex = 0; };
+		1844806E3E6941B9AD2B8499 /* AmplifyModels.swift */ = {isa = PBXFileReference; name = "AmplifyModels.swift"; path = "amplify/generated/models/AmplifyModels.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		2085EFE449094E52AC71A8C2 /* Note.swift */ = {isa = PBXFileReference; name = "Note.swift"; path = "amplify/generated/models/Note.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		853EF17D63E14ADB9ED185D5 /* Note+Schema.swift */ = {isa = PBXFileReference; name = "Note+Schema.swift"; path = "amplify/generated/models/Note+Schema.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		C59B2712CEEA486AAF9F1AEE /* Task.swift */ = {isa = PBXFileReference; name = "Task.swift"; path = "amplify/generated/models/Task.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		C634671289264298B84FD5DD /* Task+Schema.swift */ = {isa = PBXFileReference; name = "Task+Schema.swift"; path = "amplify/generated/models/Task+Schema.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1344B35A9DB43D07D015F205 /* Pods_APIpull3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		239EC380747C01EFEB32A0A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04E13670BAD0880CC9387C8D /* Pods-APIpull3.debug.xcconfig */,
+				B315D5499F8E3B11A6F4EFEF /* Pods-APIpull3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6BA4123F24BF7F7300B668AF = {
 			isa = PBXGroup;
 			children = (
+				81F09611950E49D49D9A082C /* AmplifyModels */,
+				9C79BFCDCB2E4952BAF79E41 /* AmplifyConfig */,
+				6BA4125F24BF807700B668AF /* Podfile */,
 				6BA4124A24BF7F7300B668AF /* APIpull3 */,
 				6BA4124924BF7F7300B668AF /* Products */,
+				239EC380747C01EFEB32A0A1 /* Pods */,
+				F57FF075E672A502B301512D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +112,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F57FF075E672A502B301512D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE90B4EC8103482C1188D0A4 /* Pods_APIpull3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C79BFCDCB2E4952BAF79E41 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				E017A2F15BE940C5B2479DE1 /* amplifytools.xcconfig */,
+				4204781C00D04FCD93991A62 /* amplifyconfiguration.json */,
+				E76C6699FD4546B5ABF03336 /* awsconfiguration.json */,
+				C971FBB9175B426CBEF20DFC /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		05AF3DA427B743A18B61A5C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = undefined;
+			sourceTree = "<group>";
+		};
+		81F09611950E49D49D9A082C /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				1844806E3E6941B9AD2B8499 /* AmplifyModels.swift */,
+				2085EFE449094E52AC71A8C2 /* Note.swift */,
+				853EF17D63E14ADB9ED185D5 /* Note+Schema.swift */,
+				C59B2712CEEA486AAF9F1AEE /* Task.swift */,
+				C634671289264298B84FD5DD /* Task+Schema.swift */,
+			);
+			name = AmplifyModels;
+			path = .;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BA4125C24BF7F7600B668AF /* Build configuration list for PBXNativeTarget "APIpull3" */;
 			buildPhases = (
+				8C1030ADAFD395B968092D6F /* [CP] Check Pods Manifest.lock */,
+				6BA4126124BF824D00B668AF /* Run Amplify Tools */,
 				6BA4124424BF7F7300B668AF /* Sources */,
 				6BA4124524BF7F7300B668AF /* Frameworks */,
 				6BA4124624BF7F7300B668AF /* Resources */,
+				8F246C00E6380A99667A980B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,11 +216,74 @@
 			files = (
 				6BA4125824BF7F7600B668AF /* LaunchScreen.storyboard in Resources */,
 				6BA4125524BF7F7600B668AF /* Preview Assets.xcassets in Resources */,
+				6BA4126024BF807700B668AF /* Podfile in Resources */,
 				6BA4125224BF7F7600B668AF /* Assets.xcassets in Resources */,
+				D93A64E8E4594A79A58EF3BB /* amplifyconfiguration.json in Resources */,
+				4A4181FFAC8041E88EC3E8D7 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BA4126124BF824D00B668AF /* Run Amplify Tools */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Amplify Tools";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/AmplifyTools/amplify-tools.sh\"\n";
+		};
+		8C1030ADAFD395B968092D6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIpull3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F246C00E6380A99667A980B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APIpull3/Pods-APIpull3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APIpull3/Pods-APIpull3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APIpull3/Pods-APIpull3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BA4124424BF7F7300B668AF /* Sources */ = {
@@ -149,6 +293,11 @@
 				6BA4124C24BF7F7300B668AF /* AppDelegate.swift in Sources */,
 				6BA4124E24BF7F7300B668AF /* SceneDelegate.swift in Sources */,
 				6BA4125024BF7F7300B668AF /* ContentView.swift in Sources */,
+				6BC7E794ECDC439695F11378 /* AmplifyModels.swift in Sources */,
+				DFB1A115566843248D6A44F2 /* Note.swift in Sources */,
+				D052553491E04CB1A33A44B7 /* Note+Schema.swift in Sources */,
+				0D2BF67F17C74A6C9CBFCADA /* Task.swift in Sources */,
+				7129B09792B048CE956AB3A7 /* Task+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +431,7 @@
 		};
 		6BA4125D24BF7F7600B668AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E13670BAD0880CC9387C8D /* Pods-APIpull3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +452,7 @@
 		};
 		6BA4125E24BF7F7600B668AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B315D5499F8E3B11A6F4EFEF /* Pods-APIpull3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
